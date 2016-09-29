@@ -50,3 +50,11 @@ The tests in this repository are mainly integration tests, meaning you will need
 
 1. Ask a core developer for instructions on how to set up test server credentials on your machine
 2. `npm test`
+
+## Logs
+To append debug information to your log output, set the following environment variable:
+```
+DEBUG=loopback:connector:mysql`
+```
+
+To get only SQL queries, use `loopback:connector:mysql:sql` instead.
